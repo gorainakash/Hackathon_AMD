@@ -1,5 +1,5 @@
 # 🧩 ConcurML  
-### ⚡ Intelligent Profiler for Concurrent AI Workloads  
+### ⚡ Performance Intelligence for Concurrent AI Systems  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
@@ -10,82 +10,107 @@
 </p>
 
 <p align="center">
-  <b>Monitor. Analyze. Optimize.</b><br>
-  Turning Concurrent AI Workloads into Measurable, Optimization-Driven Systems.
+  <b>Monitor. Diagnose. Optimize.</b><br/>
+  Built for modern AI workloads running at scale.
 </p>
 
 ---
 
-## 🧠 Overview
+## 🎬 Live Demo
 
-ConcurML is a real-time performance intelligence framework designed to profile and optimize **concurrent Machine Learning workloads**.
+<p align="center">
+  <img src="assets/demo.gif" width="900" alt="ConcurML Demo"/>
+</p>
+
+> Replace `assets/demo.gif` with your screen recording GIF.
+
+---
+
+## 🚀 What is ConcurML?
+
+ConcurML is a real-time performance intelligence platform designed to profile and optimize **concurrent AI/ML workloads**.
 
 It bridges the gap between:
+AI Model Execution → Hardware Utilization → Bottleneck Detection → Optimization Proof
 
-> **AI Model Execution → Hardware Resource Usage → Optimization Strategy**
 
-Unlike traditional monitoring tools, ConcurML not only tracks metrics but explains performance behavior and validates measurable improvements.
-
----
-
-## 🚨 The Problem
-
-Modern AI systems often execute multiple models simultaneously, which can cause:
-
-- CPU saturation  
-- GPU underutilization  
-- VRAM overflow (OOM errors)  
-- Memory & I/O bottlenecks  
-- Unpredictable execution latency  
-
-Existing tools display raw statistics —  
-they do not connect hardware spikes to AI workload behavior.
+Unlike traditional system monitors, ConcurML doesn’t just show numbers —  
+it explains performance behavior and validates measurable improvements.
 
 ---
 
-## 💡 The Solution
+## ⚠️ The Challenge
 
-ConcurML transforms raw telemetry into **actionable performance intelligence** by:
+Modern AI deployments face:
 
-- Running multiple models concurrently  
-- Monitoring system resources in real time  
-- Detecting bottlenecks under load  
-- Benchmarking optimization improvements  
-- Generating AI-driven diagnostic insights  
+- CPU saturation during concurrent inference  
+- GPU underutilization or memory overflow  
+- Unpredictable latency under load  
+- Lack of optimization validation  
+
+Existing tools show metrics.  
+They don’t connect them to AI execution logic.
 
 ---
 
-## ✨ Core Features
+## 💡 The ConcurML Approach
+
+✔ Run multiple models concurrently  
+✔ Capture live hardware telemetry  
+✔ Detect bottlenecks automatically  
+✔ Benchmark optimized vs naive execution  
+✔ Generate structured AI-driven diagnostics  
+
+From raw telemetry to actionable intelligence.
+
+---
+
+## ✨ Key Capabilities
 
 - 🚀 Parallel multi-model execution engine  
-- 📡 Real-time CPU, GPU, VRAM, Power & Disk monitoring  
-- 🛡️ Predictive resource estimation before execution  
-- 📊 Interactive performance visualization dashboard  
-- 🏆 Optimization benchmarking (naive vs optimized models)  
-- 🤖 Automated bottleneck analysis using LLMs  
+- 📡 Real-time CPU, GPU, VRAM & I/O tracking  
+- 🛡 Predictive resource estimation  
+- 📊 Interactive performance dashboard  
+- 🏆 Optimization benchmarking framework  
+- 🤖 Automated bottleneck classification using LLMs  
 
 ---
 
-## 🏗️ System Architecture
+## 🏗 System Architecture
+
+
+User Interface (Streamlit)
+↓
+Concurrent Execution Engine
+↓
+Model Layer (LLMs + Synthetic Models)
+↓
+Telemetry Layer (CPU / GPU Monitoring)
+↓
+Analytics Engine
+↓
+AI Diagnostic Report
+
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
-- **AMD Ryzen Processor** – Multi-core parallel execution  
-- **Python** – Core backend logic  
-- **Streamlit** – Interactive dashboard  
-- **Ollama (LLMs)** – AI execution & analysis  
-- **psutil** – CPU & memory monitoring  
-- **NVIDIA NVML** – GPU & VRAM tracking  
-- **Pandas** – Performance data processing  
+| Layer | Technology |
+|-------|------------|
+| Compute | AMD Ryzen Processor |
+| Backend | Python |
+| UI | Streamlit |
+| AI Engine | Ollama (LLMs) |
+| Telemetry | psutil + NVIDIA NVML |
+| Analytics | Pandas |
 
 ---
 
-## 🚀 Getting Started
+## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/your-username/concurml.git
-cd concurml
+git clone https://github.com/gorainakash/Hackathon_AMD.git
+cd Hackathon_AMD
 pip install -r requirements.txt
 streamlit run app.py
