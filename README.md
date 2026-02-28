@@ -67,3 +67,25 @@ ConcurML transforms raw telemetry into **actionable performance intelligence** b
 ---
 
 ## 🏗️ System Architecture
+
+---
+
+## 🛠 Tech Stack
+
+- **AMD Ryzen Processor** – Multi-core parallel execution  
+- **Python** – Core backend logic  
+- **Streamlit** – Interactive dashboard  
+- **Ollama (LLMs)** – AI execution & analysis  
+- **psutil** – CPU & memory monitoring  
+- **NVIDIA NVML** – GPU & VRAM tracking  
+- **Pandas** – Performance data processing  
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/concurml.git
+cd concurml
+pip install -r requirements.txt
+streamlit run app.py
