@@ -1,5 +1,3 @@
-main.py
-
 import streamlit as st
 import ollama
 import time
@@ -320,4 +318,5 @@ if st.sidebar.button("🚀 Run Profiler & Optimizer"):
             except Exception as e:
                 st.error(f"Insight Generation Failed: Make sure {analyst_model} is pulled in Ollama. Error: {e}")
     else:
+
         st.warning("No LLM available to generate insights (please install llama3, mistral, or phi3).")
