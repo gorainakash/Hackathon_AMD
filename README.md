@@ -19,10 +19,9 @@
 ## 🎬 Live Demo
 
 <p align="center">
-  <img src="assets/demo.gif" width="900" alt="ConcurML Demo"/>
+  <img src="demo.gif" width="900" alt="ConcurML Demo"/>
 </p>
 
-> Replace `assets/demo.gif` with your screen recording GIF.
 
 ---
 
