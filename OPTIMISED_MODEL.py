@@ -1,5 +1,3 @@
-optimised_model.py
-
 import time
 import sys
 import psutil
@@ -68,4 +66,5 @@ print(f"Generated {num_tokens} tokens")
 print(f"Throughput: {num_tokens / elapsed:.2f} tokens/sec")
 print(f"CPU usage before: {cpu_before}%")
 print(f"CPU usage after: {cpu_after}%")
+
 print("Device used: CPU (Optimized BLAS)")
