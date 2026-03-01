@@ -16,6 +16,19 @@
 
 
 ---
+---
+
+## 🎬 See ConcurML in Action
+
+<p align="center">
+  <img src="DEMO_GIF.gif" alt="ConcurML Live Demo" width="900"/>
+</p>
+
+<p align="center">
+  <b>Real-time telemetry. Concurrent execution. Intelligent diagnostics.</b>
+</p>
+
+---
 
 ## 🚀 What is ConcurML?
 
