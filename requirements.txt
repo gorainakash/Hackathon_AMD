@@ -1,0 +1,5 @@
+streamlit>=1.30.0
+ollama>=0.1.8
+psutil>=5.9.0
+pandas>=2.0.0
+nvidia-ml-py3>=7.352.0
