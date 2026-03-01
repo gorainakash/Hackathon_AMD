@@ -30,6 +30,15 @@ it explains performance behavior and validates measurable improvements.
 
 ---
 
+### 🔧 Requirements
+
+- Python 3.10+
+- Ollama installed locally (with llama3)
+- NVIDIA GPU (optional, for GPU telemetry)
+- Streamlit
+
+---
+
 ## ⚠️ The Challenge
 
 Modern AI deployments face:
@@ -53,6 +62,37 @@ They don’t connect them to AI execution logic.
 ✔ Generate structured AI-driven diagnostics  
 
 From raw telemetry to actionable intelligence.
+
+---
+
+
+## 🔴 bad_model.py
+
+# The naive implementation:
+-Uses nested Python loops
+-Runs purely in interpreted Python
+-Creates high interpreter overhead
+-Fails to leverage BLAS or SIMD optimizations
+-Causes CPU core saturation
+
+# Impact:
+-High execution time
+-Low throughput (tokens/sec)
+-CPU bottleneck due to software inefficiency
+
+## 🟢 optimized_model.py
+
+# The optimized implementation:
+-Uses NumPy vectorization (C-backed BLAS execution)
+-Reduces Python-level looping
+-Improves memory locality and cache usage
+-Utilizes multi-core CPU instructions efficiently
+
+# Impact:
+-Significantly reduced execution time
+-Higher throughput
+-Lower CPU saturation
+-Improved scalability under concurrency
 
 ---
 
@@ -101,7 +141,7 @@ AI Diagnostic Report
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/gorainakash/Hackathon_AMD.git
+git clone https://github.com/gorainakash/ConcurML.git
 cd Hackathon_AMD
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run MAIN.py
