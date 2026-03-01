@@ -69,11 +69,11 @@ From raw telemetry to actionable intelligence.
 ## 🔴 bad_model.py
 
 # The naive implementation:
--Uses nested Python loops
--Runs purely in interpreted Python
--Creates high interpreter overhead
--Fails to leverage BLAS or SIMD optimizations
--Causes CPU core saturation
+* **Uses nested Python loops**
+* **Runs purely in interpreted Python**
+* **Creates high interpreter overhead**
+* **Fails to leverage BLAS or SIMD optimizations**
+* **Causes CPU core saturation**
 
 # Impact:
 -High execution time
