@@ -14,14 +14,6 @@
   Built for modern AI workloads running at scale.
 </p>
 
----
-
-## 🎬 Live Demo
-
-<p align="center">
-  <img src="demo.gif" width="900" alt="ConcurML Demo"/>
-</p>
-
 
 ---
 
